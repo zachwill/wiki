@@ -185,6 +185,8 @@ Error message and password prompt
 
 <li>$:/config/AutoFocus</li>
 
+<li>$:/config/DefaultMoreSidebarTab</li>
+
 <li>$:/config/EditorTypeMappings/text/vnd.tiddlywiki</li>
 
 <li>$:/config/Navigation/openLinkFromInsideRiver</li>
@@ -443,11 +445,7 @@ Error message and password prompt
 
 <li>Blinkist</li>
 
-<li>daily note</li>
-
 <li>Daily Note</li>
-
-<li>entrepreneur</li>
 
 <li>Erin</li>
 
@@ -458,6 +456,8 @@ Error message and password prompt
 <li>Idea</li>
 
 <li>interesting</li>
+
+<li>Papercuts of current system</li>
 
 <li>quote</li>
 
@@ -883,6 +883,9 @@ $:/config/ViewToolbarButtons/Visibility/$(listItem)$
 </div>
 <div created="20200518205719002" modified="20200518205719002" title="$:/config/AutoFocus">
 <pre>text</pre>
+</div>
+<div created="20200519144513038" modified="20200519144513038" title="$:/config/DefaultMoreSidebarTab">
+<pre>$:/core/ui/MoreSideBar/Recent</pre>
 </div>
 <div bag="default" created="20191215203357897" modified="20200502181255154" revision="0" tags="stroll" title="$:/config/EditorTypeMappings/text/vnd.tiddlywiki" type="text/vnd.tiddlywiki">
 <pre>comptext</pre>
@@ -12053,8 +12056,8 @@ exports.context = contextWidget;
 <div created="20200418122550429" modified="20200504205519536" title="$:/state/tab--1498284803">
 <pre>$:/core/ui/AdvancedSearch/Filter</pre>
 </div>
-<div created="20200418132348763" modified="20200519035351986" title="$:/state/tab--1963855381">
-<pre>$:/core/ui/ControlPanel/Palette</pre>
+<div created="20200418132348763" modified="20200519144727909" title="$:/state/tab--1963855381">
+<pre>$:/themes/tiddlywiki/vanilla/themetweaks</pre>
 </div>
 <div created="20200429214724797" modified="20200429214724797" title="$:/state/tab--219645345">
 <pre>$:/core/ui/ControlPanel/Plugins/Add/Themes</pre>
@@ -12062,8 +12065,8 @@ exports.context = contextWidget;
 <div created="20200423200357785" modified="20200423200357785" title="$:/state/tab--509593366">
 <pre>$:/core/ui/ControlPanel/Palette</pre>
 </div>
-<div created="20200429214732957" modified="20200429214732957" title="$:/state/tab--86143343">
-<pre>$:/core/ui/ControlPanel/Plugins/Installed/Themes</pre>
+<div created="20200429214732957" modified="20200519144846184" title="$:/state/tab--86143343">
+<pre>$:/core/ui/ControlPanel/Plugins/Installed/Plugins</pre>
 </div>
 <div created="20200423200356184" modified="20200423200356184" title="$:/state/tab-102244450">
 <pre>$:/core/ui/ControlPanel/Appearance</pre>
@@ -12071,8 +12074,8 @@ exports.context = contextWidget;
 <div created="20200418151636450" modified="20200421145858496" title="$:/state/tab-11433013">
 <pre>.topicList</pre>
 </div>
-<div created="20200418121928767" modified="20200519144010081" title="$:/state/tab-1749438307">
-<pre>$:/core/ui/ControlPanel/Saving</pre>
+<div created="20200418121928767" modified="20200519144836470" title="$:/state/tab-1749438307">
+<pre>$:/core/ui/ControlPanel/Plugins</pre>
 </div>
 <div created="20200518205322157" modified="20200518213834151" title="$:/state/tab-2065006209">
 <pre>$:/core/ui/ControlPanel/Saving/GitHub</pre>
@@ -12080,11 +12083,11 @@ exports.context = contextWidget;
 <div created="20200418122101344" modified="20200510141038875" title="$:/state/tab/moresidebar-1850697562">
 <pre>$:/core/ui/MoreSideBar/System</pre>
 </div>
-<div created="20200418121835270" modified="20200519044201132" title="$:/state/tab/sidebar--595412856">
-<pre>$:/core/ui/SideBar/Recent</pre>
+<div created="20200418121835270" modified="20200519144937846" title="$:/state/tab/sidebar--595412856">
+<pre>$:/.giffmex/sidebar/tabs/strollcontrols</pre>
 </div>
-<div created="20200504200956301" modified="20200519034625923" title="$:/state/tabs/controlpanel/toolbars-1345989671">
-<pre>$:/core/ui/ControlPanel/Toolbars/ViewToolbar</pre>
+<div created="20200504200956301" modified="20200519144655290" title="$:/state/tabs/controlpanel/toolbars-1345989671">
+<pre>$:/core/ui/ControlPanel/Toolbars/EditToolbar</pre>
 </div>
 <div created="20200504154623789" modified="20200504154625935" title="$:/state/tree/$:/.giffmex/">
 <pre>hide</pre>
@@ -12104,7 +12107,7 @@ exports.context = contextWidget;
 <div bag="default" revision="1" title="$:/status/UserName">
 <pre></pre>
 </div>
-<div created="20200519144224253" list="2020-05-19" modified="20200519144224253" title="$:/StoryList">
+<div created="20200519144224253" list="2020-05-19 [[Papercuts of current system]]" modified="20200519144909133" title="$:/StoryList">
 <pre></pre>
 </div>
 <div bag="default" created="20200127163609843" list="$:/jd/fullscreen-editor/EditButton $:/core/ui/Buttons/delete $:/core/ui/Buttons/cancel $:/core/ui/Buttons/save" modified="20200502175036997" revision="0" tags="stroll" title="$:/tags/EditToolbar" type="text/vnd.tiddlywiki">
@@ -12428,13 +12431,7 @@ Build something that makes you a living first.</pre>
 <div created="20200519043833117" modified="20200519043833117" title="Blinkist">
 <pre></pre>
 </div>
-<div created="20200518205835981" modified="20200518205835981" title="daily note">
-<pre></pre>
-</div>
 <div created="20200518210631213" modified="20200518210631213" title="Daily Note">
-<pre></pre>
-</div>
-<div created="20200518204323254" modified="20200518204323254" title="entrepreneur">
 <pre></pre>
 </div>
 <div created="20200519043833119" modified="20200519043833119" title="Erin">
@@ -12476,6 +12473,29 @@ Can [[TiddlyWiki]] use hashtags? Any plugin for that?</pre>
 </div>
 <div created="20200518204323255" modified="20200518204323255" title="interesting">
 <pre></pre>
+</div>
+<div created="20200519145001732" modified="20200519145402622" tags="" title="Papercuts of current system">
+<pre>[[2020-05-19]]
+
+Going to keep track of my complaints about TiddlyWiki here...
+
+* I know that I want backlinks to not display the full text — but instead part of the text
+* Using Markdown would be more ideal than this “wiki markup”
+* Would love to use hashtags as inline wiki links
+
+I really dislike the editor.
+
+I wish I could start writing as soon as I open the page.
+
+I want to hide the tags since it blocks stuff when I tab over to this text area view.
+
+!! Things I do like
+
+Saving to GitHub automatically.
+
+Easy to get going once you’ve incurred the steep learning curve.
+
+Linking to other pages is super easy. Feel like it probably beats any note app with that right now.</pre>
 </div>
 <div created="20200518204323256" modified="20200518204323256" title="quote">
 <pre></pre>
